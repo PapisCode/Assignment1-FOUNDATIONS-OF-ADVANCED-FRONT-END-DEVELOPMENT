@@ -5,7 +5,7 @@ export default function Contact() {
         <div>
             <Navbar />
             <h1>Contact Us</h1>
-            <p>Email: example@example.com</p>
+            <p>Email: myfirstreactpage@humber.ca</p>
         </div>
     );
 }

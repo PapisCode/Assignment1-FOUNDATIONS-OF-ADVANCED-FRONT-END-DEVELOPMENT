@@ -5,7 +5,7 @@ export default function About() {
         <div>
         <Navbar />
         <h1>About Us</h1>
-        <p>This is a simple Next.js application which demonstrates React concepts</p>
+        <p>This is a simple Next.js application which demonstrates react concepts learned in the first couple weeks.</p>
         </div>
     );
 }

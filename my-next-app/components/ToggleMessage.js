@@ -8,7 +8,7 @@ export default function ToggleMessage() {
       <button onClick={() => setIsVisible(!isVisible)}>
         {isVisible ? 'Hide' : 'Show'} ToggleMessage
       </button>
-      {isVisible && <p>This is a conditional message!</p>}
+      {isVisible && <p>Surprise Surprise!</p>}
     </div>
   );
 }
