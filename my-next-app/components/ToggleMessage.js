@@ -1,14 +1,14 @@
 import { useState } from 'react';
 
 export default function ToggleMessage() {
-    const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
-    return (
+  return (
     <div>
-        <button onClick={() => setIsVisible(!isVisible)}>
+      <button onClick={() => setIsVisible(!isVisible)}>
         {isVisible ? 'Hide' : 'Show'} ToggleMessage
-        </button>
-        {isVissible && <p>This is a conditional message!</p>}
+      </button>
+      {isVisible && <p>This is a conditional message!</p>}
     </div>
-    );
+  );
 }
